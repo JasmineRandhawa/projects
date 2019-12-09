@@ -1,0 +1,24 @@
+CREATE TABLE `sample1` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `EmployeeId` int(11) DEFAULT NULL,
+  `Age` int(11) DEFAULT NULL,
+  `Occupation` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `sample2` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `EmployeeId` int(11) DEFAULT NULL,
+  `Age` int(11) DEFAULT NULL,
+  `Occupation` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `PreviousAnonymizedImprovedSample1` (
+   `Id` int(11) NOT NULL AUTO_INCREMENT,
+   `GroupId` int(11) DEFAULT NULL,
+  `EmployeeId` varchar(11) DEFAULT NULL,
+  `Age` varchar(11) DEFAULT NULL,
+  `Occupation` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
